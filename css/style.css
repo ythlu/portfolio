@@ -6,7 +6,12 @@
         /* Font control */
 
         h1 {
-            line-height: 150px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        p {
+            line-height: 35px;
             text-align: center;
         }
         /* container row column 定義區開始 */
@@ -59,7 +64,7 @@
             opacity: 1;
             transition: 1;
             position: absolute;
-            top: 250px;
+            top: 0px;
         }
         /* container row column 定義區結束 */
         /* alignment */
