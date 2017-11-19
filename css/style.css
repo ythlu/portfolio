@@ -3,6 +3,12 @@
             font-color: rgb(28, 28, 28);
             a font-color: rgb(28, 28, 28);
         }
+        /* Font control */
+
+        h1 {
+            line-height: 150px;
+            text-align: center;
+        }
         /* container row column 定義區開始 */
 
         .container {
@@ -15,11 +21,7 @@
             border: 0px solid black;
             padding: 25px;
             width: 500px;
-            line-height: 25px;
             background-color: white;
-            font-size: 14px;
-            text-align: stretch;
-            color: rgb(28, 28, 28);
         }
 
         .col-single {
@@ -33,7 +35,40 @@
             text-align: stretch;
             color: rgb(28, 28, 28);
         }
+        /* Card definition */
+
+        .card {
+            position: relative;
+            border: 0px solid red;
+        }
+
+        .card img {
+            width: 100%;
+            border: 0px solid red;
+            display: block;
+        }
+
+        .card:hover:after {
+            content: "Journey";
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            font-size: 20px;
+            text-align: center;
+            opacity: 1;
+            transition: 1;
+            position: absolute;
+            top: 250px;
+        }
         /* container row column 定義區結束 */
+        /* alignment */
+
+        .center-display {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
         /* Navbar 區開始 */
         /* 
    reset nav下面的ul
@@ -60,7 +95,7 @@
             color: white;
             margin: auto;
             max-width: 1000px;
-            padding: 10px 10px 10px 10px;
+            padding: 20px 10px;
         }
 
         nav [class^="topnav"] {
