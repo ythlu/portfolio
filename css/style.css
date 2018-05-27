@@ -38,6 +38,13 @@
             background-color: white;
         }
 
+        .col-photo {
+            border: 0px solid black;
+            padding: 25px;
+            width: 225px;
+            background-color: white;
+        }
+
         .col-single {
             border: 0px solid black;
             padding: 25px;

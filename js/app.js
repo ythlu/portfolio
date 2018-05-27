@@ -8,7 +8,7 @@ bwphotosRef.get().then(function (snapshot) {
         var bwphoto = doc.data();
         //建立顯示用的模板
         var html =
-            `<div class="col" id="${doc.id}">
+            `<div class="col-photo" id="${doc.id}">
 <img src="${bwphoto.downloadURL}">
 </div>`;
         //建立bwphoto元素
