@@ -3,6 +3,7 @@
             font-color: rgb(28, 28, 28);
             a font-color: rgb(28, 28, 28);
         }
+
         /* Font control */
 
         h1 {
@@ -14,18 +15,20 @@
             line-height: 35px;
             text-align: center;
         }
+
         /* container row column 定義區開始 */
 
         .container {
             margin: auto;
             max-width: 1000px;
             heigth: auto;
+            position: relative;
         }
 
         .col {
             border: 0px solid black;
             padding: 25px;
-            width: 450px;
+            width: 225px;
             background-color: white;
         }
 
@@ -40,7 +43,9 @@
             text-align: stretch;
             color: rgb(28, 28, 28);
         }
+
         /* container row column 定義區結束 */
+
         /* alignment */
 
         .center-display {
@@ -49,8 +54,9 @@
             margin-right: auto;
         }
 
-        !important
+         !important
         /* Navbar 區開始 */
+
         /* 
    reset nav下面的ul
    使其不出現多餘的padding與margin
@@ -61,6 +67,7 @@
             margin: 0;
             list-style-type: none;
         }
+
         /* 
     使nav, nav 下面的ul作為 flexbox容器
 */
@@ -113,6 +120,7 @@
             background-color: rgb(28, 28, 28);
             display: absolute;
         }
+
         /* Style the links inside the navigation bar */
 
         .topnav-right a {
@@ -125,25 +133,31 @@
             text-decoration: none;
             font-size: 14px;
         }
+
         /* Change the color of links on hover */
 
         .topnav-right a:hover {
             color: rgb(215, 84, 85);
             text-decoration: underline;
         }
+
         /* Add a color to the active/current link */
 
         .topnav-right a.active {
             color: rgb(215, 84, 85);
         }
+
         /* Navbar 區結束 */
+
         /* Image RWD 設定區開始 */
 
         img {
             max-width: 100%;
             height: auto;
         }
+
         /* Image RWD 設定區結束 */
+
         /* Footer 區開始 */
 
         footer {
@@ -156,7 +170,9 @@
             color: rgb(28, 28, 28);
             text-decoration: none;
         }
+
         /* Footer 區結束 */
+
         /* FA 顏色定義區開始 */
 
         .fa-color-ctrl {
@@ -167,9 +183,11 @@
         .fa-color-ctrl a:hover {
             color: rgb(215, 84, 85);
         }
+
         /* Add a color to the active/current link */
 
         .fa-color-ctrl a.active {
             color: rgb(215, 84, 85);
         }
+
         /* FA 顏色定義區結束 */

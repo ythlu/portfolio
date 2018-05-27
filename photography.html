@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="./css/flexgrid.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <title>.:tErEsA:. photography</title>
 </head>
 
 <body>
-
 
     <!-- Navbar區開始 -->
 
@@ -55,23 +56,8 @@
     <!-- 內容區開始 -->
     <section>
         <div class="container">
-            <div class="flex-container flex-row-wrap justify-center">
+            <div class="flex-container flex-row-wrap clearfix" id="bwphotos">
 
-                <div class="col">
-                    <img src="./images/photos/22308593_10155749534803064_2393973456395821978_n.jpg" alt="photo1">
-                </div>
-                <div class="col">
-                    <img src="./images/photos/22310315_10155757966043064_4219268395565586593_n.jpg" alt="photo1">
-                </div>
-                <div class="col">
-                    <img src="./images/photos/22365600_10155761019773064_8689707643306281968_n.jpg" alt="photo1">
-                </div>
-                <div class="col">
-                    <img src="./images/photos/22406366_10155755736388064_2104115172640821468_n.jpg" alt="photo1">
-                </div>
-                <div class="col">
-                    <img src="./images/photos/22491923_10155769030498064_1439099923523028191_n.jpg" alt="photo1">
-                </div>
             </div>
         </div>
 
@@ -96,6 +82,28 @@
 
     </footer>
     <!-- 頁面底端結束  -->
+
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBMM8F7ltu-AO1mwTkPkPEENPCfHrj4e2w",
+            authDomain: "teresayth2019.firebaseapp.com",
+            databaseURL: "https://teresayth2019.firebaseio.com",
+            projectId: "teresayth2019",
+            storageBucket: "teresayth2019.appspot.com",
+            messagingSenderId: "583341148674"
+        };
+        firebase.initializeApp(config);
+        db = firebase.firestore();
+        storage = firebase.storage();
+    </script>
+
+
+    <script src="./js/app.js "></script>
+
 </body>
 
 </html>
