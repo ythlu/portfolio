@@ -18,6 +18,12 @@
 
         /* container row column 定義區開始 */
 
+        .container-index {
+            margin: auto;
+            max-width: 1000px;
+            heigth: auto;
+        }
+
         .container {
             margin: auto;
             max-width: 1000px;
