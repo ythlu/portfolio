@@ -12,7 +12,7 @@ bwphotosRef.get().then(function (snapshot) {
 <img src="${bwphoto.downloadURL}">
 </div>`;
         //建立bwphoto元素
-        var $bwphoto = $(`<div class="col"></dvi>`);
+        var $bwphoto = $(`<div class="col-photo"></dvi>`);
         $bwphoto.html(html);
         //把div追加到bwphotos中
         $("#bwphotos").append($bwphoto);
