@@ -111,6 +111,7 @@
             text-align: center;
             padding: 5px;
             cursor: default;
+            list-style-type: none;
         }
 
         nav ul li:hover:not(.brand) {
